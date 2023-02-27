@@ -11,7 +11,6 @@
             bst.Insert(30);
             bst.Insert(70);
             bst.Display();
-            
         }
     }
 }

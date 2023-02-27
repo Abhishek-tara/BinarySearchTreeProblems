@@ -26,7 +26,7 @@ namespace BinarySearchTreeProblems
             {
                 if (this.leftTree == null)
                 {
-                    // leftCount++;
+                     leftCount++;
                     this.leftTree = new BinarySearchTree<T>(item);
                 }
                 else
@@ -36,12 +36,17 @@ namespace BinarySearchTreeProblems
             {
                 if (this.rightTree == null)
                 {
-                    //rightCount++;
+                    rightCount++;
                     this.rightTree = new BinarySearchTree<T>(item);
                 }
                 else
                     this.rightTree.Insert(item);
             }
+        }
+
+        public void GetSize()
+        {
+            Console.WriteLine("Size" + " " + (1 + leftCount + rightCount));
         }
         public void Display()
         {

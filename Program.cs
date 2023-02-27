@@ -6,11 +6,22 @@
         {
             Console.WriteLine("Welcome to the Bianry search Tree Problems");
 
-            Console.WriteLine("\nCreate Binary Search Tree by adding 56 and then adding 30 & 70\n");
+            Console.WriteLine("\nCreate Binary Search Tree as shown in figure\n");
             BinarySearchTree<int> bst = new BinarySearchTree<int>(56);
             bst.Insert(30);
             bst.Insert(70);
+            bst.Insert(22);
+            bst.Insert(40);
+            bst.Insert(60);
+            bst.Insert(95);
+            bst.Insert(11);
+            bst.Insert(65);
+            bst.Insert(3);
+            bst.Insert(16);
+            bst.Insert(63);
+            bst.Insert(67);
             bst.Display();
+            bst.GetSize();
         }
     }
 }
